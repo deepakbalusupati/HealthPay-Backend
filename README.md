@@ -31,16 +31,16 @@ graph TD
 
 ## Key Components:
 ### 1. ClassificationAgent
--> Uses Gemini to identify document types
--> Handles: Bills, Discharge Summaries, ID Cards
+- Uses Gemini to identify document types
+- Handles: Bills, Discharge Summaries, ID Cards
 
 ### 2. ExtractionAgent
--> Extracts structured data using LLM prompts
--> Outputs validated JSON
+- Extracts structured data using LLM prompts
+- Outputs validated JSON
 
 ### 3. ValidationAgent
--> Cross-checks data consistency
--> Returns approve/reject decisions
+- Cross-checks data consistency
+- Returns approve/reject decisions
 
 ## 🤖 AI Tools Used
 ### 1. Gemini (All LLM Operations)
@@ -139,6 +139,6 @@ def cached_llm_call(prompt):
 
 ## ⚠️ Troubleshooting
 #### Missing dependencies:
--> sudo apt install poppler-utils tesseract-ocr
--> Gemini errors: Verify .env has GOOGLE_API_KEY
--> Docker issues: Check port conflicts in docker-compose.yml
+- `sudo apt install poppler-utils tesseract-ocr`
+- Gemini errors: Verify `.env` has `GOOGLE_API_KEY`
+- Docker issues: Check port conflicts in `docker-compose.yml`
