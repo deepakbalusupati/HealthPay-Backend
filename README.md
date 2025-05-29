@@ -73,9 +73,9 @@ Return JSON with: missing_documents[], discrepancies[], decision, reason
 ```
 
 ### 2. Cursor AI (Development)
-#### Generated 70% of FastAPI boilerplate
-#### Assisted with error handling patterns
-#### Refactored agent orchestration logic
+- **Generated 70% of FastAPI boilerplate**
+- **Assisted with error handling patterns**
+- **Refactored agent orchestration logic**
 
 ## 🧪 How to Test
 #### Sample Requests
